@@ -21,8 +21,8 @@ adf.test(diff(dataPM))
 par(mfrow=c(2,1))
 
 # Menguji auto correlation function dan partial auto correlation function
-acf(diff(dataPM), lag=48)
-pacf(diff(dataPM), lag=48)
+acf(diff(dataPM))
+pacf(diff(dataPM))
 
 # Melihat list model ARIMA yang cocok dengan data
 auto.arima(dataPM, trace = TRUE)
@@ -42,3 +42,6 @@ forecast(model1, h=16)
 # Melakukan plotting untuk peramalan forecast 15 hari ke depan
 par(mfrow=c(1,1))
 plot(forecast(model1, h=16))
+
+# --- Evaluasi Model ---
+accuracy(model1$residuals, dataPM)
