@@ -27,7 +27,7 @@ Projek ini membahas analisis komparatif antara model ARIMA dan ARIMAX untuk memp
 | `HasilArima.spv`            | Output hasil analisis ARIMA (format SPSS Viewer).                        |
 | `Kelompok 6_TIJ23_Akhir.pdf`| Laporan akhir lengkap dalam format PDF.                                  |
 | `Kelompok 6_TIJ23_Akhir4Hal.pdf` | Ringkasan laporan akhir (4 halaman).                              |
-| `LinkResources_StatisAkhir.txt` | Daftar sumber data dan referensi.                                 |
+| `LinkResources_StatisAkhir.txt` | Link Excel dan Github                                               |
 | `Pengerjaan ARIMA.docx`     | Draft pengerjaan dan catatan analisis ARIMA.                             |
 | `README.md`                 | Dokumentasi dan petunjuk penggunaan projek ini.                          |
 | `.Rhistory`                 | Riwayat perintah R yang pernah dijalankan.                               |
